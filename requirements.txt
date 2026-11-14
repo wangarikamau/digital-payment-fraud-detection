@@ -1,0 +1,9 @@
+
+fastapi==0.141.1
+uvicorn[standard]==0.54.0
+mlflow==3.18.0
+scikit-learn==1.6.1
+xgboost==3.4.1
+pandas==2.2.3
+pydantic==2.14.2
+skops==0.16.0

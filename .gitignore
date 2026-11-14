@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+*.log
+mlruns/
+.streamlit/secrets.toml
+
+# Dataset files
+*.csv
+*.zip
+*.zip.*
+*.parquet
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

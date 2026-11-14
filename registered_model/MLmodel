@@ -1,0 +1,40 @@
+artifact_path: file:///content/fraud_mlops/mlartifacts/models/m-f18e60a327c04a859345151fccfd39d9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.18
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.6.1
+    skops_trusted_types:
+    - numpy.dtype
+    - sklearn.compose._column_transformer._RemainderColsList
+    - xgboost.core.Booster
+    - xgboost.sklearn.XGBClassifier
+is_signature_from_type_hint: false
+mlflow_version: 3.18.0
+model_id: m-f18e60a327c04a859345151fccfd39d9
+model_size_bytes: 643872
+model_uuid: m-f18e60a327c04a859345151fccfd39d9
+prompts: null
+run_id: 76106858ae7c4de2920bdf0b023b2a50
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "string", "name": "type", "required": true}, {"type": "double",
+    "name": "amount", "required": true}, {"type": "double", "name": "oldbalanceOrg",
+    "required": true}, {"type": "double", "name": "oldbalanceDest", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-11-12 06:12:36.960304'

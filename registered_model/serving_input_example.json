@@ -1,0 +1,18 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "type",
+      "amount",
+      "oldbalanceOrg",
+      "oldbalanceDest"
+    ],
+    "data": [
+      [
+        "TRANSFER",
+        1000.0,
+        1000.0,
+        0.0
+      ]
+    ]
+  }
+}
